@@ -88,7 +88,7 @@ public class FishMarket {
         CollectionRecordReader collectionRR = new CollectionRecordReader(processData);
 
         //Input batch size , label index , and number of label
-        DataSetIterator iter = new RecordReaderDataSetIterator(collectionRR, processData.size(),-1,7, true);
+        DataSetIterator iter = new RecordReaderDataSetIterator(collectionRR, processData.size(),1,7, true);
 
         //Create Iterator and shuffle the dat
         DataSet fullDataset = iter.next();
