@@ -1,4 +1,4 @@
-package ai.certifai.exerciseday13;
+package ai.certifai.weightFishMarket;
 
 
 import org.datavec.api.records.reader.RecordReader;
@@ -40,7 +40,7 @@ import java.util.List;
 
 // a record of 7 common different fish species in fish market sales.
 // a predictive model can be performed using machine friendly data
-// estimate the weight of fish can be predicted.
+// estimated weight of fishes can be predicted.
 
 public class FishMarket {
 
