@@ -1,4 +1,4 @@
-package ai.certifai.exerciseday13;
+package ai.certifai.AnimalClassification;
 
 import org.datavec.api.records.reader.RecordReader;
 import org.datavec.api.records.reader.impl.collection.CollectionRecordReader;
