@@ -1,21 +1,8 @@
 package global.skymind.question1;
 
 /*
- * Before you start, you should:
- * 1. Put the CSV file into your resources folder
- * You are an engineer and have collected a dataset on how different shape of buildings affect the energy efficiency.
- * You have to perform an analysis to determine:
- * 1. the heating load and;
- * 2. cooling load of the building,
- * given a set of attributes which correspond to a shape. Here, the hints of what you should do is given below:
- * Hint for transform process:
- * a) remove unused columns
- * b) filter out empty rows
- * Hint for model training: Perform early stopping so that the model does not overfit
- * Specifications:-
- * a) Calculate average loss on dataset
- * b) terminate if there is no improvement for 1 epoch
- * c) check the loss for each epoch
+ Collected a dataset on how different shape of buildings affect the energy efficiency.
+
  * Dataset origin: https://archive.ics.uci.edu/ml/datasets/Energy+efficiency#
  * Dataset attribute description:
  * X1: Relative Compactness
